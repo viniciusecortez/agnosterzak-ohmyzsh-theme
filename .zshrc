@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/viniciusecortez/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -105,8 +105,4 @@ source $ZSH/oh-my-zsh.sh
 export PGPORT=5432
 
  PATH=$PATH:~/.gem/ruby/2.6.0/bin
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/viniciusecortez/.sdkman"
-	[[ -s "/home/viniciusecortez/.sdkman/bin/sdkman-init.sh" ]] && source "/home/viniciusecortez/.sdkman/bin/sdkman-init.sh"
 
