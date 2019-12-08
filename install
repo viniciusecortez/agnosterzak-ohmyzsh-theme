@@ -1,0 +1,5 @@
+# /bin/sh
+mv .zshrc $HOME/
+export pwd_=$(pwd)
+cd ..
+rm -rf pwd_
